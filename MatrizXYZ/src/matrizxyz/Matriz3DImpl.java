@@ -51,9 +51,9 @@ public class Matriz3DImpl implements Matriz3D {
             if(x1>x2 || y1 >y2 || z1 > z2){
                 throw new ErrorException(101);
             }
-            for(int x=x1;x1<=x2;x1++){
-                for(int y=y1;y1<=y2;y1++){
-                    for(int z=z1;z1<z2;z1++){
+            for(int x=x1;x<=x2;x++){
+                for(int y=y1;y<=y2;y++){
+                    for(int z=z1;z<=z2;z++){
                         sum = sum + this.m[x][y][z];
                     }
                 }
