@@ -1,2 +1,2 @@
-# matrizYXZ
+# matrizXYZ
 gestionar matriz de tres dimensiones
